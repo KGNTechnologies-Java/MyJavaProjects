@@ -1,0 +1,5 @@
+com\kgn\springmvcsecurity\controller\LoginController.class
+com\kgn\springmvcsecurity\configuration\LoginApplicationConfig.class
+com\kgn\springmvcsecurity\configuration\core\SpringSecurityInitializer.class
+com\kgn\springmvcsecurity\configuration\core\SpringMVCWebAppInitializer.class
+com\kgn\springmvcsecurity\configuration\LoginSecurityConfig.class
