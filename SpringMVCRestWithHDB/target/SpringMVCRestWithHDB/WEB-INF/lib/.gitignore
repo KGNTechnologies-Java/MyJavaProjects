@@ -1,0 +1,16 @@
+/com.sap.security.core.server.csi_1.0.1.jar
+/commons-logging-1.2.jar
+/jackson-annotations-2.8.0.jar
+/jackson-core-2.8.5.jar
+/jackson-databind-2.8.5.jar
+/javax.servlet-api-3.1.0.jar
+/jstl-1.2.jar
+/spring-aop-4.3.3.RELEASE.jar
+/spring-beans-4.3.3.RELEASE.jar
+/spring-context-4.3.3.RELEASE.jar
+/spring-core-4.3.3.RELEASE.jar
+/spring-expression-4.3.3.RELEASE.jar
+/spring-jdbc-4.3.4.RELEASE.jar
+/spring-tx-4.3.4.RELEASE.jar
+/spring-web-4.3.3.RELEASE.jar
+/spring-webmvc-4.3.3.RELEASE.jar
