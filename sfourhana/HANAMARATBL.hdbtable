@@ -1,0 +1,10 @@
+table.schemaName = "NETWORKDB";
+table.tableType = COLUMNSTORE; 
+table.columns = [
+	{name = "MANDT"; sqlType = VARCHAR; nullable = false; length = 20;},
+	{name = "MATNR"; sqlType = VARCHAR; nullable = false; length = 40;},
+	{name = "AENAM"; sqlType = VARCHAR; nullable = true; length = 12;},
+	{name = "MTART"; sqlType = VARCHAR; nullable = false; length = 4;},
+	{name = "MBRSH"; sqlType = VARCHAR; nullable = false; length = 1;},
+	{name = "MATKL"; sqlType = VARCHAR; nullable = false; length = 9;}];
+table.primaryKey.pkcolumns = ["MANDT", "MATNR"];
