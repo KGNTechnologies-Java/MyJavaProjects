@@ -1,0 +1,2296 @@
+#mainContent {
+    height: auto;
+/*    width: 81.3%;*/
+    width: 100%;
+    display: table-cell;
+}
+
+#mainContentViewMore {
+    /*width: 56%;*/
+	/*width:1013px;*/
+    width: 80%;
+    height: auto;
+    float: left;
+    padding: 0px 10px 0px 10px;
+}
+
+.dashBoardHeader {
+    float: left;
+    height: auto;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 98%;
+}
+
+.titleDesc {
+    float: left;
+    height: auto;
+    margin: 0 1.5% auto 0;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.titleDesc h4 {
+    width: auto;
+    height: auto;
+    float: left;
+    color: #686868;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    padding: 0 9px 0 4px;
+    font-size: 17pt;
+	font-weight: normal;
+}
+
+.titleDesc h5 {
+    width: auto;
+    height: auto;
+    float: left;
+    color: #686868;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    padding: 2px 0 0;
+    font-size: 16pt;
+}
+
+.titleSparator {
+    width: 3px;
+    height: 27px;
+    float: left;
+    padding: 4px 8px 0 0;
+}
+
+.buttonHeader {
+    color: #54565b;
+    float: left;
+    height: auto;
+    padding: 15px 0 0;
+    width: 73.6%;
+}
+
+.buttonHeader_viewMore {
+    width: 250px;
+    height: 28px;
+    float: left;
+    color: #54565b;
+    padding: 20px 20px 27px 19px;
+    text-align: right;
+}
+
+.buttonHeaderDiv {
+    float: left;
+    background: #e0e0de;
+    border: 1px solid #cfcfcf;
+    margin: 0 8px 5px 0;
+    border-radius: 3px;
+    height: 30px;
+}
+
+.buttonHeaderDiv_viewMore {
+    margin: 0 19px 0 0;
+    border-radius: 3px;
+    height: 30px;
+}
+
+.buttonHeaderDiv span:nth-child(3n+1) {
+    padding: 2px 13px 0 8px;
+    font-size: 13pt;
+    height: 28px;
+    float: left;
+    color: #343232;
+   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.buttonHeaderDiv span:nth-child(3n+2) {
+    padding: 2px 7px 0 0;
+    font-size: 17pt;
+    height: 28px;
+    float: left;
+    color: #343232;
+/* letter-spacing:2px */;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+    /*Chrome CSS here*/
+
+    .sideBar {
+        width: 312px;
+        margin-right: 0px;
+        height: auto;
+        float: right;
+    }
+}
+
+.countryflag {
+    float: left;
+    width: 17px;
+    height: 11px;
+}
+
+.timeZone {
+   float: left;
+    margin: 10px 0px;
+    width: 104px;
+    word-wrap: break-word;
+	border-left: 1px solid #d6d6d3;
+	  padding-left: 3px;
+}
+
+.timeZone span:first-child {
+    color: #5b5b5b;
+    font-size: 12pt;
+    line-height: 14pt;
+    text-align: left;
+
+}
+
+.timeZone span:last-child {
+  color: #484848;
+    float: left;
+    font-size: 11pt;
+    line-height: 14pt;
+    padding-bottom: 4px;
+    text-align: left;
+    width: auto;
+}
+.timeZoneDiv .timeZone:first-child {
+	border-left:none;
+}
+
+.timeZoneDiv .timeZone:last-child {
+	 float: left;
+    margin-right: 0;
+    width: 100px;
+	
+}
+
+.dashBoardTable {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.dashBoardTableCompletedJobs {
+    margin-left: 1%;
+    width: 98%;
+    float: left;
+}
+
+#removeMargin {
+    margin-right: 0;
+}
+
+#completedJobs, #sidebar_cmpljbs, #sidebar_claims {
+    font-size: .75em;
+	line-height: 15px
+}
+
+table#tableEvents {
+    width: 100%;
+}
+
+table.summaryTableSpace tr td:nth-last-child(2) {
+    border-bottom: none !important;
+}
+
+.favIcon {
+    float: left;
+    height: 17px;
+    width: 17px;
+    padding: 10px 15px 5px 10px;
+    position: relative;
+    top: -6px;
+}
+
+.linkClose {
+	float: left;
+    margin-top: 5px;
+	cursor:pointer;
+}
+a.linkClose {
+    background: url("../images/link_close.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 12px;
+    left: -23px;
+    position: relative;
+    top: 16px;
+    width: 12px;
+}
+
+.quicklinkAction {
+    border-bottom: 1px solid #e1e2e6;
+    float: left;
+    font-size: 11pt;
+    height: auto;
+    padding: 10px 0 7px 10px;
+    width: 100%;
+}
+
+#quickpanel .sideBarPanelArea .quicklinkAction input.typeLinkName {
+  	border: 1px solid #e3e4e6;
+    color: #555;
+    float: left;
+   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 9pt;
+    height: 20px;
+    margin: 0 5px 0 0;
+    padding-left:5px;
+    width: 37%;
+}
+
+.sideBarPanel .sideBarPanelArea input.typeLinkSave {
+    background: #97d4e8;
+    border: medium none;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 8pt;
+    height: 22px;
+    /*margin: 0 8px 0 4px;*/
+	margin: 10px 8px 0 4px;
+    padding: 0 7px;
+    width: 17%;
+}
+a#removeSave {
+    left: 19px;
+    position: relative;
+    top: 4px;
+    width: 12px;
+}
+.width33 {
+    width: 33% !important;
+}
+
+.viewMore_data .summaryTable table > thead.summaryTablethead {
+    background-color: #f5f5f5;
+    border-bottom: 2px solid #e1e2e6;
+    height: 40px;
+    width: 100%;
+    float: left;
+    font-size: 11pt;
+}
+
+.viewMore_data .summaryTable table > thead#summaryTabletheadId {
+    font-size: 8pt;
+}
+
+.viewMore_data .summaryTable table > tbody {
+    overflow: hidden;
+    border-bottom: 3px solid #e3e4e8;
+    border-radius: 6px;
+    height: auto;
+    float: left;
+    width: 100%;
+    ;
+}
+
+#completedJobs.summaryTable table > thead.summaryTablethead {
+    overflow: hidden;
+    background-color: #fff;
+    border-bottom: 2px solid #e1e2e6;
+    height: 40px;
+    color: #76777b;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    float: left;
+    width: 100%;
+}
+
+.summaryTable table.summaryTableSpace thead > tr th.headerWidth {
+    height: 23px;
+    padding: 7px 0 0 7px;
+    width: 26.5%;
+    background: url('../images/sortDefault.png') no-repeat;
+    background-position: right 5px center;
+    cursor: pointer;
+    color: #54565b;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.summaryTable table.summaryTableSpace thead > tr th#disableSort {
+    background: none!important;
+}
+
+.summaryTable table#paginated thead > tr th.headerWidth {
+    height: 25px;
+    padding: 14px 0 0 7px;
+    background: url('../images/sortDefault.png') no-repeat;
+    background-position: right 5px center;
+    cursor: pointer;
+    color: #54565b;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.viewMore_data .summaryTable table#paginated thead > tr th {
+    height: 25px;
+    padding: 15px 0 10px 10px;
+    width: 67%;
+    background: url('../images/sortDefault.png') no-repeat;
+    background-position: right 5px center;
+    cursor: pointer;
+    color: #54565b;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    float: left;
+    border-right: 1px solid #e1e2e6;
+}
+
+.viewMore_data .summaryTable table#paginated thead > tr th:nth-child(1) {
+    width: 67%;
+}
+
+.viewMore_data .summaryTable table#paginated thead > tr th:nth-child(2) {
+    width: 15%;
+}
+
+.viewMore_data .summaryTable table#paginated thead > tr th:nth-child(3) {
+    width: 14%;
+    background-position: right 0 center;
+    border-right: none !important;
+}
+
+.viewMore_data .summaryTable table#paginated thead > tr th#dbCompleted1 {
+    width: 44.6%;
+    font-size: 11pt;
+}
+
+.viewMore_data .summaryTable table#paginated thead > tr th#dbCompleted2 {
+    width: 24.6%;
+    font-size: 11pt;
+}
+
+.viewMore_data .summaryTable table#paginated thead > tr th#dbCompleted3 {
+    width: 25%;
+    font-size: 11pt;
+}
+
+.viewMore_data .summaryTable table#paginated tbody > tr td#dbCompleted1 {
+    width: 44.6%;
+}
+
+.viewMore_data .summaryTable table#paginated tbody > tr td#dbCompleted2 {
+    width: 24.6%;
+}
+
+.viewMore_data .summaryTable table#paginated tbody > tr td#dbCompleted3 {
+    width: 25%;
+}
+
+#completedJobs table.summaryTableSpace tbody > tr.rowFlop td:nth-child(3n+1) {
+    line-height: 14px;
+    width: 37%;
+}
+
+.viewMore_data .summaryTable table.summaryTableSpace tbody > tr td {
+    border-right: 1px solid #e1e2e6;
+    float: left;
+    padding: 15px 0 15px 10px;
+}
+
+.viewMore_data .summaryTable table.summaryTableSpace tbody > tr td:nth-child(1) {
+    width: 67%;
+}
+
+.viewMore_data .summaryTable table.summaryTableSpace tbody > tr td:nth-child(2) {
+    width: 15%;
+}
+
+.viewMore_data .summaryTable table.summaryTableSpace tbody > tr td:nth-child(3) {
+    width: 14%;
+    border-right: none !important;
+}
+
+.summaryTable table.summaryTableSpace tbody > tr:nth-child(2n+2) {
+    background: #f7f9fa;
+}
+
+.summaryTable table#paginated tbody > tr
+.summaryTable table#paginated tbody > tr:nth-child(3) {
+    background: red;
+}
+
+#content table#paginated tbody > tr:nth-child(1) {
+    background: none;
+    height: auto;
+}
+
+.summaryTable table#paginated tbody > tr:nth-child(2n+2) {
+    background: none repeat scroll 0 0 #f7f9fa;
+    height: auto;
+}
+
+.summaryTable table#paginated tbody > tr:nth-child(2n+3) {
+    background: none;
+    float: left;
+    height: auto;
+}
+
+.summaryTable table#paginated tbody > tr {
+    background: #f5f5f5;
+}
+
+#taskInformationCell1 {
+    width: 37%;
+}
+
+#taskInformationCell2 {
+    width: 25%;
+}
+
+#taskInformationCell3 {
+    width: 25%;
+}
+
+#completedJobs table.summaryTableSpace tbody > tr.rowFlip td:nth-child(3n+1) {
+    float: left;
+    width: 37%;
+    line-height: 14px;
+    overflow: hidden;
+}
+
+#completedJobs table.summaryTableSpace tbody > tr.rowFlip td:nth-child(3n+2) {
+    width: 24%;
+    float: left;
+    overflow: hidden;
+}
+
+#completedJobs table.summaryTableSpace tbody > tr.rowFlip td:nth-child(3n+3) {
+    width: 20%;
+    float: left;
+    overflow: hidden;
+}
+
+table.quickLinkTable {
+    height: auto;
+    border-bottom: none;
+    border-radius: none;
+	width: 100%;
+}
+
+table.quickLinkTable td {
+	border-bottom:1px solid #dbdbdb;
+	vertical-align:middle;
+	height: 35px;
+}
+table.quickLinkTable td a{
+	color:#37afe6;
+}
+
+.viewMore {
+    width: 100%;
+}
+
+.viewMore-item {
+    font-size: 1em;
+    /*height: 45px;*/
+    color: #8c8d8f;
+}
+
+.viewMore-item.open {
+    border-bottom: 1px solid #dbdbdb;
+    color: #8c8d8f;
+}
+
+.viewMore-item.open .type {
+    float: right;
+    background: url('../images/minus.png') center no-repeat;
+    width: 43px;
+    height: 33px;
+}
+
+.viewMore-item .type {
+    float: right;
+    background: url('../images/plus.png') center no-repeat;
+    width: 43px;
+    height: 33px;
+}
+
+div.viewMore_data {
+    float: left;
+    background: #fff;
+    font-size: .8em;
+/* line-height:140%; */
+    display: block;
+    width: 100%;
+}
+
+.viewMore_data .summaryTable table.summaryTableSpace thead.summaryTablethead tr {
+    width: 100%;
+}
+
+.viewMore-item h6 {
+    font-size: 10pt;
+    line-height: 1.3;
+    margin-bottom: 0;
+    padding: 10px;
+    text-align: right;
+    padding: 6px 9px 0 8px;
+    color: #000;
+}
+
+.summaryTable table#paginated {
+    float: left;
+    border-left: 1px solid #e1e2e6;
+    border-right: 1px solid #e1e2e6;
+    border-top: 1px solid #e1e2e6;
+    border-radius: 6px;
+}
+
+.dropDownPrior {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+#assigneeName {
+    width: 40%;
+    padding-left: 10px!important;
+    margin: 0 0 5px 14px;
+}
+
+a.asigneeSearchIcon {
+    background: url('../images/search_icon.png')no-repeat;
+    cursor: pointer;
+    background-position: 144px 3px;
+}
+
+.othersJobRequest input.asigneeSearchIcon {
+    background: url('../images/search_icon.png')no-repeat;
+    cursor: pointer;
+    background-position: 115px 3px;
+}
+
+.others input.asigneeSearchIcon {
+    background: url('../images/search_icon.png')no-repeat;
+    cursor: pointer;
+    background-position: 111px 3px;
+}
+
+#quickpanel {
+    height: 50%;
+    margin-bottom: 7px;
+}
+
+#tempId {
+    border-bottom: none;
+}
+
+.styled-select select {
+    background: transparent;
+    line-height: 1;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    border: 1px solid #e3e4e6;
+    color: #737373;
+    font-size: 10pt;
+    font-weight: 400;
+    height: 27px;
+    margin: 0 10px 8px 0;
+    width: 145%;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    padding-left: 7px;
+    cursor: pointer;
+}
+
+.styled-select {
+    float: right;
+    width: 44%;
+    height: 27px;
+    overflow: hidden;
+    background: url('../images/droparrow-drop.jpg') no-repeat;
+    background-position: right !important;
+    margin: 0 12px 8px 0;
+    border-right: 1px solid #e3e4e6;
+    border-radius: 3px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    cursor: pointer;
+}
+
+#styledSelect {
+    width: 330%;
+}
+
+.styled-select-region select {
+    background: transparent;
+    line-height: 12px;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    border: 1px solid #e3e4e6;
+    color: #737373;
+    font-size: 9pt;
+    font-weight: 400;
+    height: 27px;
+    margin: 0 10px 8px 0;
+    width: 115%;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    padding-left: 7px;
+    cursor: pointer;
+}
+
+.styled-select-region select optgroup {
+    background: transparent;
+    line-height: 12px;
+    -webkit-appearance: none;
+    color: #737373;
+    font-size: 9pt;
+    font-weight: 400;
+    margin: 0 10px 8px 0;
+    width: 115%;
+   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    padding-left: 7px;
+    cursor: pointer;
+}
+
+#optgroup {
+    font-style: normal;
+    margin-left: 5px;
+    margin-bottom: 0;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.styled-select-region select optgroup option {
+    height: 15px;
+    line-height: 10px;
+    float: left;
+    width: 100%;
+    display: block;
+}
+
+.styled-select-region {
+    float: right;
+    width: 44%;
+    height: 27px;
+    overflow: hidden;
+    background: url(../images/droparrow-drop.jpg) no-repeat;
+    background-position: right !important;
+    margin: 0 12px 8px 0;
+    border-right: 1px solid #e3e4e6;
+    border-radius: 3px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    cursor: pointer;
+    font-size: 8pt;
+    background-position: right;
+}
+
+#priorityDroppdown {
+    float:left!important;
+    margin-left: 13px;
+}
+
+.priorityDroppdownClass {
+    width: 100%;
+    text-align: left;
+}
+/*
+#filterBy{text-align:left;width:6%;float:right;padding:15px 0 0}
+#filterBy .styled-select{margin:0;background-position:107px !important;}*/
+
+a#refreshLogo {
+    float: left;
+    width: 33px;
+    height: 20px;
+    padding: 10px 0 6px 8px;
+    background: url('../images/refresh.png') no-repeat scroll 8px 8px #73d3f8;
+    margin-top: 14px;
+}
+
+.exportExcel {
+    margin: 0 3px;
+	cursor:pointer;
+}
+
+.exportText {
+    float: right !important;
+    font-size: 11pt;
+}
+
+.printJobs {
+    float: right !important;
+    font-size: 11pt;
+}
+
+.comletedJobsText {
+    float: left;
+    font-weight: 700;
+}
+
+#page_navigation {
+    float: right;
+    padding-top: 15px;
+}
+
+#page_navigation a.previous_link {
+    width: 27px;
+    height: 25px;
+    margin: 2px;
+    background: #00a3e4;
+    float: left;
+    background: url('../images/previous.png') no-repeat;
+}
+
+#page_navigation a.page_link {
+    height: 23px;
+    width: 25px;
+    margin: 2px;
+    background: #f7f7f7;
+    float: left;
+    color: #707070;
+    font-weight: 700;
+    border: 1px solid #c7c7c7;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+#page_navigation a.next_link {
+    width: 27px;
+    height: 25px;
+    margin: 2px;
+    background: #00a3e4;
+    float: left;
+    background: url('../images/next.png') no-repeat;
+}
+
+.active_page {
+    border: none!important;
+    color: #fff!important;
+    background: #00609c!important;
+    margin-top: 3px!important;
+}
+
+.paginateNuemericals {
+    height: 23px;
+    width: 25px;
+}
+
+.NuemericalStyle {
+    padding: 4px 7px 4px 8px;
+    float: left;
+}
+
+#content p {
+    margin: 0;
+}
+
+.statusText {
+    float: left;
+    width: 40px;
+    height: 15px;
+    background: #ff0;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    padding: 5px 15px 5px 5px;
+    margin-bottom: 5px;
+}
+
+.statusText span {
+    text-align: center;
+}
+
+#stausDropdownId select {
+    width: 100px;
+    font-size: 8pt;
+    padding-left: 0;
+}
+
+#stausDropdownId {
+    float: left;
+    width: 75px;
+    background: url('../images/droparrow-drop.jpg') no-repeat scroll;
+    background-position: right !important;
+    float: left;
+    width: 75px;
+}
+
+#id1, #id2, #id3, #id4, #id5, #id6 {
+    display: none;
+}
+
+#statusTestId1, .priorityText, .assignedText, .priorityText1, .assignedText1 {
+    display: block;
+}
+
+div#quickpanel .sideBarPanelArea table.summaryTableSpace tbody > tr td:nth-child(1) {
+    width: 10%;
+    float: left;
+    padding-top: 2%;
+}
+
+div#quickpanel .sideBarPanelArea table.summaryTableSpace tbody > tr td:nth-child(3) {
+    float: left;
+}
+
+.SaveNotification {
+    width: 300px;
+    height: 25px;
+    background: #faf0f1;
+    float: left;
+    margin: 15px 30px 0 20px;
+    border-radius: 6px;
+    border: 1px solid #f5d0d4;
+    display: none;
+}
+
+.filter_select_cntr {
+    float: right;
+    font-size: 12px;
+    width: 239px;
+}
+
+.filter_select_cntr span {
+    font-style: normal;
+    font-weight: normal;
+    vertical-align: top;
+    cursor: pointer;
+    font-size: 11pt;
+    float: left;
+}
+
+.filterBy {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 11pt;
+    float: right;
+    margin: 15px 0 7px;
+    padding-right: 15%;
+}
+
+.SaveNoteText {
+    float: left;
+    width: 260px;
+    height: 15px;
+    padding: 0 5px 5px 10px;
+    font-size: 9pt;
+}
+
+a.SaveNoteClose {
+    width: 20px;
+    height: 20px;
+    float: left;
+    padding-top: 3px;
+    background: url('../images/saveNoteClose.png') no-repeat 5px center;
+}
+
+.SaveNotificationDiv {
+    float: left;
+    height: 25px;
+    width: 300px;
+}
+
+#completedJobs table.summaryTableSpace tbody {
+    float: left;
+    overflow: hidden;
+    border-bottom: none;
+    height: 205px;
+}
+
+#completedJobs table.summaryTableSpace tbody >tr td {
+    float: left;
+    height: 30px;
+    overflow: auto;
+    line-height: 14px;
+    padding: 5px 0 7px 15px;
+}
+
+#completedJobs table.summaryTableSpace thead > tr td:nth-child(1) {
+    width: 37%;
+    padding: 5px 0 7px 15px;
+    float: left;
+}
+
+#completedJobs table.summaryTableSpace thead > tr td:nth-child(2) {
+    width: 24%;
+    padding: 5px 0 7px 15px;
+    float: left;
+}
+
+#completedJobs table.summaryTableSpace thead > tr td:nth-child(3) {
+    width: 20%;
+    padding: 5px 0 7px 15px;
+    float: left;
+}
+
+.jobsSummaryHeader {
+    width: 68%;
+    height: auto;
+    float: left;
+}
+
+.fixedWidthLayout {
+    width: 81.8%!important;
+}
+
+.priorityinputJR {
+    display: none;
+	width:40% !important;
+}
+
+#inputAigssUserJR {
+    width: 41%;
+    margin-right: 0px;
+}
+
+#inputDueDateJR {
+    float: left;
+    width: 40%;
+    margin-left: 0;
+}
+
+#inputDroppdownJR {
+    float: right;
+    width: 40%;
+}
+
+.buttonWidth {
+    width: 100%;
+    float: left;
+}
+
+/* jobs to do basket */
+
+
+#jobsBaskContainer {
+    postion: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* #divJBHeader {
+	 margin-top: 5px;	
+	 margin-bottom:10px;
+	font-family:"aig_futura_medregular";
+	postion:relative;
+
+} */
+
+#divJBHeader {
+    display: inline-block;
+    float: left;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    height: auto;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+#divJBHeader span#jbLabel {
+    font-size: 1.2em;
+    height: 45px;
+    display: inline;
+    color: #8c8d8f;
+}
+/* #divJBHeader div#jbLabel {
+    font-size: 1.2em;
+    height: 45px;
+    display:inline;
+    color: #8c8d8f;
+	width:80px;
+} */
+#divJBHeader div#jbLabel {
+    color: #8c8d8f;
+    display: inline;
+    float: left;
+    font-size: 1.2em;
+    height: 30px;
+    width: auto;
+    ;
+}
+
+.savePopup {
+    background: #fbf0f1;
+    border: 2px solid #f7d0d4;
+    border-radius: 4px;
+    display: none;
+    height: auto;
+    margin: 0px 0px 5px 5px;
+    padding: 5px 25px 5px 10px;
+    float: left;
+    width: 285px;
+    font-size: 12px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    position: relative;
+    line-height: 14px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .savePopup {
+        width: 280px;
+    }
+}
+/* .savePopup .SaveNoteClose{width:20px;height:20px; position:absolute; right:0; z-index:2;background: url("../images/saveNoteClose.png") no-repeat; top:30%;} */
+.savePopup .SaveNoteClose {
+    background: url("../images/saveNoteClose.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 20px;
+    cursor: pointer;
+    position: absolute;
+    ;
+}
+
+div #jbdivTable {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+div #jbdivTable table {
+    width: 100%;
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    border-spacing: 5px;
+    height: auto;
+    border-bottom: 3px solid #e3e4e8;
+}
+
+div #jbdivTable table tr th {
+    background: url("../images/sortDefault.png") no-repeat scroll right 3px top 30%;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+div #jbdivTable table th, div #jbdivTable table td {
+    border-bottom: 1px solid #eaeaea;
+    border-collapse: collapse;
+    padding: 1% .5% 1% .5%;
+    vertical-align: top;
+}
+
+div #jbdivTable table th, div #jbdivTable table td {
+    font-size: 13px;
+    text-align: left;
+    border-right: 1px solid #eaeaea;
+    line-height: 12pt;
+}
+
+.width17 {
+    width: 17%;
+}
+
+.width8 {
+    width: 7%;
+}
+
+.width5 {
+    width: 5%;
+}
+
+div #jbdivTable table tr th:last-child, div #jbdivTable table tr td:last-child {
+    background: none !important;
+    border-right: none;
+}
+
+.lblColor {
+    background: #F8F2B2;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+    text-align: center;
+    min-height: 19px;
+    padding-top: 3px;
+    margin: 2px 0 4px;
+}
+
+.datespn {
+    text-align: center;
+    font-size: 8pt;
+}
+
+div #jbdivTable table tr td select {
+}
+
+div #jbdivTable #pagination {
+    float: right;
+    margin-top: 4%;
+}
+
+.width17 a {
+    color: #37afe6;
+    text-decoration: underline;
+}
+
+.editIcon {
+    margin: 5px 0px 0px 6px;
+    cursor: pointer;
+    background: url('../images/edit.png') no-repeat;
+    width: 22px;
+    height: 22px;
+    float: left;
+}
+
+.saveIcon {
+    margin: 5px 0px 0px 6px;
+    cursor: pointer;
+    background: url('../images/save.png') no-repeat;
+    width: 22px;
+    height: 22px;
+    float: left;
+    display: none;
+}
+.cancelIcon {
+    margin: 5px 0px 0px 0px;
+    cursor: pointer;
+    width: auto;
+    height: 22px;
+    float: left;
+    display: block;
+	color:#37afe6;
+	text-decoration: underline;
+}
+
+.HideDiv {
+    display: none;
+}
+
+.showDiv {
+    display: block;
+}
+
+
+/* completed jobs */
+
+.policyTypeChangePopUp {
+    width: 550px;
+ /*margin-left:-200px;*/
+    left: 33%;
+    padding: 0px;
+}
+
+.policyTypeChangePopUp .aigbutton {
+    letter-spacing: normal;
+}
+
+.policyTypeChangePopUp p {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.popuptitle {
+    background: none repeat scroll 0 0 #00a4e4;
+    color: #ffffff;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 12pt;
+    height: 30px;
+    line-height: 22pt;
+    padding-left: 1px;
+    width: auto;
+}
+
+.policyTypeChangePopUp #leavePageYes {
+    float: left;
+    margin: 10px 10px 10px;
+}
+
+.policyTypeChangePopUp #leavePageNo {
+    float: right;
+    margin: 10px 15px 10px 10px;
+}
+
+.popUpDiv a.closePopUp {
+    position: absolute;
+    top: 1px;
+    right: -4px;
+    display: block;
+    height: 30px;
+    width: 30px;
+    z-index: 23;
+    background: url(../images/close.png) no-repeat;
+    cursor: pointer;
+}
+
+#jobComplsection {
+    border: 3px solid #e3e3e3;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    overflow-y: auto;
+}
+
+#jobComplsection section {
+    margin-top: 10px;
+    min-height: 60px;
+    height: auto;
+    border-bottom: 1px solid #e36f1e;
+}
+
+.noBorderBottom {
+    border-bottom: none !important;
+}
+
+#jobComplsection section input[type="text"] {
+    border: 1px solid #e3e3e3;
+    font-size: 12px;
+    height: 20px;
+    line-height: 12px;
+    padding: 5px 8px;
+    width: 27%;
+    color: ##A3A5A7;
+}
+
+#jobComplsection section  select {
+    height: 20px;
+    border: 1px solid #e3e3e3;
+}
+
+#jobComplsection section textarea {
+    vertical-align: top;
+    padding: 8px;
+    width: 60%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-size: 12px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#jobComplsection section label {
+    width: 150px;
+    font-size: 12px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    vertical-align: text-top;
+    display: inline-block;
+    line-height: sub;
+}
+
+#addmore {
+    text-decoration: underline;
+    margin-left: 10px;
+    color: #e36f1e;
+    font-size: 14px;
+}
+/*#jobComplsection section input:focus, #jobComplsection section textarea:focus {
+    background: #fff; 
+    border:1px solid #555; 
+    box-shadow: 0 0 3px #aaa; 
+}*/
+.dshViewAll {
+    color: #0099d5;
+    cursor: pointer;
+    float: left;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 0 12px 5px;
+    margin-bottom: 15px;
+}
+
+.viewDashboardPanel {
+    background: none repeat scroll 0 0 #ebebeb;
+    border-bottom: 1px solid #d2d3d6;
+    border-top: 1px solid #d2d3d6;
+    color: #54565b;
+    float: left;
+   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+   font-weight: normal;
+    font-size: 12pt;
+    height: 32px;
+    margin: 10px 0 15px 0px;
+    padding: 5px 1% 3px;
+    width: 98%;
+}
+
+.customh6 {
+    padding-top: 0px;
+    height: 25px;
+    margin: 0px 0px 5px 5px;
+    background: none;
+    border: none;
+    color: #54565b;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-weight: normal;
+    font-size: 14pt;
+    float: left;
+    width: 100%;
+}
+
+#AddLinksPanel {
+    float: left;
+    height: auto;
+    max-height: 210px;
+    overflow-y: auto;
+	overflow-x:hidden;
+}
+
+table#jbTable thead tr {
+    background: #F7F7F7;
+    font-family: aig_futura_light;
+    color: #54565b;
+    font-size: 13px;
+}
+
+.noBorderRight {
+    border-right: none !important;
+}
+
+.borderTopRmv {
+    border-top: none !important;
+}
+
+#priorityDroppdownFilter {
+    float: right;
+    width: 70%;
+    margin-right: 0px;
+}
+
+#width100 {
+    width: 100%;
+}
+
+.custPad {
+    padding-top: 5px !important;
+}
+
+.headerContent {
+}
+
+.headerContent h6 {
+    margin: 0px;
+    padding: 0px;
+    color: #54565b;
+    width: auto;
+	display: inline;
+    font-size: 13pt;
+    font-weight: normal;
+}
+
+.aigUserSearch {
+    float: left;
+    height: 28px;
+    width: 264px;
+    margin: 0px 0px 0px 0px;
+    background: #fff;
+    border: 1px solid #e3e4e6;
+    border-radius: 3px;
+    line-height: 24px;
+}
+
+input.aigUserSearchInput {
+    color: #555;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 10pt;
+    font-weight: 400;
+    height: 25px;
+    margin-left: 0px;
+    width: 150px;
+    /*text-indent: 8px;*/
+	padding-left:8px;
+    border: none;
+}
+
+.db_fluid_grid_cntr {
+    width: 100%;
+    display: table;
+    overflow: auto;
+}
+
+.db_fluid_grid_cntr_row {
+    display: table-row;
+    width: 100%;
+    overflow: auto;
+}
+
+.db_fluid_grid_cntr_cell1 {
+    display: table-cell;
+    overflow: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+/* multiple dropdown */
+.multidropdown {
+    margin-bottom: 10px;
+    float: left;
+    margin-left: 5px;
+}
+
+.multidropdown dd, .multidropdown dt {
+    margin: 0px;
+    padding: 0px;
+}
+
+.multidropdown ul {
+    margin: -1px 0 0 0;
+}
+
+.multidropdown dd {
+    position: relative;
+}
+
+.multidropdown a, 
+.multidropdown a:visited {
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    font-size: 12px;
+    background: url("../images/droparrow-drop.jpg") top right no-repeat;
+    background-position-y: 3px;
+}
+
+.multidropdown dt a {
+    display: block;
+    padding: 5px 10px;
+    min-height: 15px;
+    line-height: 15px;
+    overflow: hidden;
+    border: 1px solid #dedede;
+    width: 155px;
+    font-size: 12px;
+}
+
+.multidropdown dt a span, .multiSel span {
+    cursor: pointer;
+    color: #666;
+    display: inline-block;
+    padding: 0 3px 2px 0;
+}
+
+.multidropdown dt a span, p.multiSel {
+    color: #666;
+    padding: 0 3px 0px 0;
+    width: auto;
+    font-size: 12px;
+    display: inline-table;
+}
+
+p.multiSel {
+    margin-bottom: 0px;
+}
+
+.multidropdown dd ul {
+    background-color: #fff;
+    border: 1px solid #dedede;
+    color: #666;
+    display: none;
+    left: 0px;
+    padding: 2px 15px 2px 5px;
+    position: absolute;
+    top: 2px;
+    width: 155px;
+    list-style: none;
+    height: 100px;
+    overflow: auto;
+    border-top: none;
+}
+
+.multidropdown span.value {
+    display: none;
+}
+
+.multidropdown dd ul li a {
+    padding: 5px;
+    display: block;
+}
+
+.mutliSelect ul li label {
+    cursor: pointer;
+    margin: 2px 0px;
+    padding: 0px;
+    float: left;
+    font-size: 12px;
+    color: #666;
+    font-weight: normal;
+}
+
+.mutliSelect ul li label>input[type="checkbox"] {
+    margin: 0px 4px 0px 0px;
+    padding: 0px;
+}
+
+a.viewRequestLink , a.cancelLink {
+    width: 100%;
+	color:#37afe6;
+	text-decoration: underline;
+	display:inline-block;
+	cursor:pointer;
+}
+
+textarea.taskInformationView {
+   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    border: 1px solid #e3e4e6;
+    color: #828387;
+    font-size: 8pt;
+    height: 20px;
+    margin: 5px 5px 0px 0px;
+    padding: 4px 0 15px 10px;
+    width: 92%;
+}
+
+#content table.Alertpaginated tbody > tr td.AlertvmRowCol1 {
+    width: 3%;
+}
+
+#content table.Alertpaginated tbody > tr td.AlertvmRowCol2 {
+    width: 57%;
+}
+
+#content table.Alertpaginated tbody > tr td.AlertvmRowCol3 {
+    width: 20%;
+    border-right: 1px solid #e1e2e6 !important;
+}
+
+#content table.Alertpaginated tbody > tr td.AlertvmRowCol4 {
+    width: 7%;
+}
+
+#content table.Alertpaginated tbody > tr td.AlertvmRowCol5 {
+    width: 7%;
+    border-right: none;
+}
+
+#content table.Alertpaginated tbody > tr#Alertvmtd1Flip {
+    background: none repeat scroll 0 0 #f7f9fa;
+}
+
+#content table.Alertpaginated tbody > tr#Alertvmtd1Flop {
+    background: none;
+}
+
+#content table.Alertpaginated thead> tr th.AlertvmRowCol1 {
+    width: 3%;
+    background: none;
+}
+
+#content table.Alertpaginated thead > tr th.AlertvmRowCol2 {
+    width: 57%;
+}
+
+#content table.Alertpaginated thead > tr th.AlertvmRowCol3 {
+    width: 20%;
+    border-right: 1px solid #e1e2e6 !important;
+}
+
+#content table.Alertpaginated thead > tr th.AlertvmRowCol4 {
+    width: 7%;
+}
+
+#content table.Alertpaginated thead > tr th.AlertvmRowCol5 {
+    width: 7%;
+    border-right: none;
+}
+
+.drpStatus {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-right: medium none;
+    float: left !important;
+    height: 28px;
+    margin-right: 0;
+    width: 93%;
+}
+
+.drpStatus select {
+    padding-left: 3px !important;
+}
+
+/* multiple dropdown */
+.multidropdown {
+    margin-bottom: 10px;
+    float: left;
+    margin-left: 5px;
+}
+
+.multidropdown dd, .multidropdown dt {
+    margin: 0px;
+    padding: 0px;
+}
+
+.multidropdown ul {
+    margin: -1px 0 0 0;
+}
+
+.multidropdown dd {
+    position: relative;
+}
+
+.multidropdown a, 
+.multidropdown a:visited {
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    font-size: 12px;
+    background: url("../images/droparrow-drop.jpg") center right no-repeat;
+    background-position-y: 3px;
+}
+
+.multidropdown dt a {
+    display: block;
+    padding: 5px 10px;
+    min-height: 15px;
+    line-height: 15px;
+    overflow: hidden;
+    border: 1px solid #dedede;
+    width: 155px;
+    font-size: 12px;
+}
+
+.multidropdown dt a span, .multiSel span {
+    cursor: pointer;
+    color: #666;
+    display: inline-block;
+    padding: 0 3px 2px 0;
+}
+
+.multidropdown dt a span, p.multiSel {
+    color: #666;
+    padding: 0 3px 0px 0;
+    width: auto;
+    font-size: 12px;
+    display: inline-table;
+}
+
+p.multiSel {
+    margin-bottom: 0px;
+}
+
+.multidropdown dd ul {
+    background-color: #fff;
+    border: 1px solid #dedede;
+    color: #666;
+    display: none;
+    left: 0px;
+    padding: 2px 15px 2px 5px;
+    position: absolute;
+    top: 2px;
+    width: 155px;
+    list-style: none;
+    height: 100px;
+    overflow: auto;
+    border-top: none;
+}
+
+.multidropdown span.value {
+    display: none;
+}
+
+.multidropdown dd ul li a {
+    padding: 5px;
+    display: block;
+}
+
+.mutliSelect ul li label {
+    cursor: pointer;
+    margin: 2px 0px;
+    padding: 0px;
+    float: left;
+    font-size: 12px;
+    color: #666;
+    font-weight: normal;
+}
+
+.mutliSelect ul li label>input[type="checkbox"] {
+    margin: 0px 4px 0px 0px;
+    padding: 0px;
+}
+
+#createJobButton {
+    margin: 0px 0px 7px 12px;
+}
+
+.floatOverwrt {
+    float: right;
+}
+
+.jbTable tbody > tr td span {
+    font-family: aig_futura_medregular;
+    font-size: 14px;
+    color: #color: #54565b !important;
+}
+
+.AlertvmRowCol4  a.alertForward {
+    width: 45px;
+    background-position: 14px;
+    cursor: pointer;
+}
+
+.AlertvmRowCol5  a.alertClose {
+    width: 45px;
+    background-position: 14px;
+}
+
+.Alertpaginated {
+    border-top: 1px solid #e1e2e6;
+    border-left: 1px solid #e1e2e6;
+    border-right: 1px solid #e1e2e6;
+}
+
+#floatOverwrt {
+    float: right;
+}
+
+.alertArchivedPopUp {
+    width: auto;
+    margin: 0px 0px 0px 30px;
+}
+
+.alertArchivedText {
+}
+
+.archivedRightWrap {
+    float: right;
+}
+
+.viewAlerts {
+    color: #0099d5 !important;
+    margin: 0;
+}
+
+.lft5Imp {
+    left: 5px !important;
+}
+
+.timeZoneDiv {
+    float: right;
+	width:322px;
+
+}
+
+.viewMoreVertAlign {
+    height: 28px !important;
+    padding: 7px 0 10px 10px !important;
+}
+/*Typo Heas*/
+.TypoheadReqName {
+    margin-left: 14px;
+    width: 133px;
+}
+
+input.Typoheadinput {
+    background: url("../images/search_icon.png") no-repeat scroll 109px 3px #fff;
+    height: 27px;
+    width: 133px;
+}
+
+.txtViewReq {
+    color: #454545;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    line-height: 12px;
+    font-size: 10pt;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+    border: 1px solid #e3e4e6;
+    border-radius: 3px;
+    width: 95%;
+}
+
+.popuoHeaderBg {
+    width: 100%;
+    height: 30px;
+    background: #00a3e4;
+}
+
+.padRmv {
+    padding: 0px !important;
+}
+
+.alertforwd {
+    margin: 15px;
+}
+
+.alertDelete {
+    margin: 15px;
+   font-style:normal;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.marginLftAlert {
+    margin: 10px 0px 20px 20px!important;
+}
+
+.popuoHeaderBg span {
+    color: #fff;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    padding-left: 10px;
+}
+
+.CmtForReq{text-align:left !important;padding-bottom:0px !important;font-family:"aig_futura_medregular";}
+
+
+
+/*----------Sumary Table Space Style starts here ----*/
+
+.accordion {
+    width: 100%;
+}
+
+.accordion-item {
+    font-size: 1em;
+    height: 33px;
+    background: #f9f9f9;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    color: #8c8d8f;
+    cursor: pointer;
+}
+
+.accordion-item.open {
+    border-bottom: 1px solid #dbdbdb;
+    color: #8c8d8f;
+}
+
+.accordion-item.open .type {
+    float: right;
+    background: url('../images/minus.png') center no-repeat;
+    width: 43px;
+    height: 33px;
+}
+
+.accordion-item .type {
+    float: right;
+    background: url('../images/plus.png') center no-repeat;
+    width: 43px;
+    height: 33px;
+}
+
+.accordion-item h6 {
+    padding: 5px 13px 0 10px;
+    color: #54565b;
+    font-size: 12pt;
+    font-weight: 400;
+    width: 80%;
+    float: left;
+    margin-bottom: 0;
+   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+div.data {
+    background: none repeat scroll 0 0 #fff;
+    display: none;
+    float: left;
+    font-size: 0.8em;
+    line-height: 140%;
+    width: 100%;
+}
+.summaryTable table.summaryTableSpace {
+    width: 100%;
+}
+.summaryTable table > thead.summaryTablethead {
+    background-color: #ddf4fc;
+    border-bottom: 2px solid #e1e2e6;
+    height: 32px;
+}
+.data .summaryTable table.summaryTableSpace thead.summaryTablethead tr {
+    height: 30px;
+    width: 100%;
+}
+.summaryTable table > thead > tr, tbody#scrollHide {
+    border-bottom: medium none;
+    border-radius: 0;
+    float: left;
+    overflow-y: hidden;
+    width: 100%;
+}
+.summaryTable table.summaryTableSpace thead > tr th:nth-child(1) {
+    width: 24%;
+}
+.summaryTable table.summaryTableSpace thead > tr th:nth-child(2) {
+    width: 24%;
+}
+.summaryTable table.summaryTableSpace thead > tr th:nth-child(3) {
+    width: 24%;
+}
+.summaryTable table.summaryTableSpace thead > tr th:nth-child(4) {
+    width: 20%;
+}
+.summaryTable table.summaryTableSpace thead > tr th {
+    background: url("../images/sortDefault.png") no-repeat scroll right 5px top 8px rgba(0, 0, 0, 0);
+    border-right: 1px solid #d2d3d6;
+    color: #54565b;
+    cursor: pointer;
+    float: left;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 10.5pt;
+    height: 27px;
+    padding: 8px 0 0 10px;
+    text-align: left;
+}
+.summaryTable table.summaryTableSpace tbody {
+    border-bottom: 3px solid #e3e4e8;
+    border-radius: 6px;
+    display: block;
+    float: left;
+    height: 125px;
+    overflow: auto;
+    width: 100%;
+}
+.summaryTable table.summaryTableSpace tbody > tr {
+    float: left;
+    width: 100%;
+}
+.summaryTable table.summaryTableSpace tbody > tr td {
+    padding: 5px 0 5px 10px;
+}
+.summaryTable table.summaryTableSpace tbody > tr td:nth-child(1) {
+    float: left;
+    width: 24%;
+}
+.summaryTable table.summaryTableSpace tbody > tr td:nth-child(2) {
+    float: left;
+    width: 25%;
+}
+.summaryTable table.summaryTableSpace tbody > tr td:nth-child(3) {
+    float: left;
+    width: 25%;
+}
+.summaryTable table.summaryTableSpace tbody > tr td:nth-child(4) {
+    float: left;
+    width: 18%;
+}
+/***************************Summary Table Styles End Here ***************************/
+
+/*******************Fluid Grid Cntr 2 Style Starts here *************************/
+.db_fluid_grid_cntr_cell2 {
+    display: table-cell;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 15px;
+    vertical-align: top;
+    width: 312px;
+}
+
+.sideBar {
+    float: right;
+    height: auto;
+    width: 312px;
+}
+
+.sideBarPanel {
+    font-size: 1em;
+    border-bottom: 3px solid #eaeaea;
+    border-top: 1px solid #eaeaea;
+    border-left: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+    color: #8c8d8f;
+    width: 310px;
+    float: left;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+.sideBarPanel h6 {
+    padding: 0 10px;
+    color: #5d5d5d;
+    font-size: 12pt;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    width: 290px;
+    width: 93.5%\9;
+    float: left;
+    margin-bottom: 0;
+    border-bottom: 1px solid #eaeaea;
+    height: 32px;
+    line-height: 32px;
+    background: #f9f9f9;
+	font-weight:normal;
+}
+
+.sideBarPanel h6 a {
+    color: #37AFE6;
+    float: right;
+    font-size: 13px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	line-height: 29px;
+}
+
+.sideBarPanelArea {
+    height: auto;
+    width: 100%;
+    float: left;
+}
+
+.sideBarPanel .crditoff input[type="text"] {
+    border-radius: 3px;
+    width: 38%;
+    border: 1px solid #e3e4e6;
+    font-size: 10pt;
+    margin: 0;
+    height: 25px;
+    color: #555;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    padding: 0 6px 0 10px;
+	float: left;
+}
+
+.sideBarPanel .sideBarPanelArea input.assign_name {
+    margin: 0 0 5px 13px;
+}
+
+.reqname {
+    background-image : url("../images/typoheadSearch.jpg")!important;
+	background-repeat:no-repeat !important;
+	background-position:98% 3px !important;
+    margin-left: 14px !important;
+    padding-right: 24px !important;
+    width: 32% !important;
+}
+
+/***********Alerts table Style here*********/
+table.alertsSection {
+    float: left;
+    height: auto;
+    font-size: 12px;
+}
+
+table.alertsSection tr:nth-child(even), #sidebar_cmpljbs table.cmplt-jbs tr:nth-child(even) {background: #ffffff;}
+table.alertsSection tr:nth-child(odd), #sidebar_cmpljbs table.cmplt-jbs tr:nth-child(odd) {background: #f6f8fa; }
+
+table.alertsSection td {
+	color: #54565b;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 6px 6px 6px 11px;
+	float:left;
+}
+
+.alertSl { width: 8%; }
+.alertDesc { /*width: 47%;*/width:142px; }
+.alertDescDate { width: 21%; }
+.alertDescEdit { width: 5%; }
+
+a.alertForward {
+    float: left;
+    height: 15px;
+    width: 12px;
+    background: url('../images/icon_forward.png') no-repeat;
+	cursor:pointer;
+}
+
+a.alertClose {
+    float: left;
+    height: 12px;
+    width: 12px;
+    background: url('../images/link_close.png') no-repeat;
+    padding-bottom: 3px;
+	cursor:pointer;
+}
+
+/***********Create Jobs Style here*********/
+.jobRequest {
+    float: left;
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.createjobs_select {
+    float: left;
+    margin: 13px 15px 0px;
+    /*width: 132px;*/
+	width:auto;
+}
+
+.othersJobRequest {
+	float: left;
+    margin: 13px 0 0 0px;
+}
+
+.othersJobRequest1 {
+    margin: 13px 0 0 15px;
+}
+
+input.rname {
+    border: 1px solid #e3e4e6;
+    border-radius: 3px;
+    color: #555;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 10pt;
+    font-weight: 400;
+    height: 26px;
+    padding: 0 0 0 10px;
+    width: 122px;
+}
+
+input.aname {
+	float: left;
+	width: 38%;
+    border: 1px solid #e3e4e6;
+    border-radius: 3px;
+    color: #555;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 10pt;
+    font-weight: 400;
+    height: 25px;
+    margin: 0 0 0px 15px;
+    padding: 0 5px 0 10px !important;
+    width: 30%;
+}
+
+textarea.taskInformation {
+    border: 1px solid #e3e4e6;
+    border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+    color: #828387;
+    float: left;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 10pt;
+    margin: 0 15px;
+    min-height: 40px;
+    padding: 4px 10px;
+    width: 259px;
+	resize: none;
+}
+
+.typoheadReqNmeDiv {
+    width: 200px !important;
+     margin: 0 1px 0 16px;
+}
+
+.typoheadReqNme {
+	margin-left: 5px !important;
+    width: 97px !important;
+	text-indent: 2px !important;
+}
+
+.typoheadAssigneeNmeDiv {
+    width: 200px !important;
+     margin: 0 1px 0 16px;
+}
+
+.typoheadAssigneeNme {
+    text-indent: 6px !important;
+    width: 104px !important;
+}
+
+.typeaheadIcon {
+    float: left;
+    height: 20px;
+    width: 25px;
+    position: relative;
+    background: url('../images/typoheadSearch.jpg') no-repeat #fff;
+    top: 5px;
+    left: 5px;
+}
+
+#priorityDroppdownJR1 {
+    display: none;
+	float: left;
+    margin: 0 15px 0px;
+    width: 132px;
+}
+
+#priorityDroppdownJR2 {
+	width:132px;
+	margin:0px 15px;
+}
+
+.marginRmv, #marginRmv {
+    margin-top: 1px !important;
+}
+
+.createJobSpace {
+    margin: 0 0 13px 15px;
+    float: left;
+    width: auto;
+    clear: both;
+}
+
+.sideBarPanelArea .errorMessage { margin:6px 0 0 10px;}
+/*******************Completed Jobs Container & Claims Style here *************************/
+
+#sidebar_cmpljbs table.cmplt-jbs > thead, #sidebar_claims table.claims-tbl > thead {
+    background-color: #fff;
+    border-bottom: 2px solid #e1e2e6;
+    color: #76777b;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    height: 40px;
+    width: 100%;
+}
+#sidebar_cmpljbs table.cmplt-jbs > thead tr, #sidebar_claims table.claims-tbl > thead tr {
+	background-color: #fff !important;
+}
+#sidebar_cmpljbs table.cmplt-jbs thead > tr td, #sidebar_claims table.claims-tbl thead > tr td {
+    padding: 7px 0 7px 13px;
+}
+
+#sidebar_cmpljbs table.cmplt-jbs tr td, #sidebar_claims table.claims-tbl tr td {
+    padding: 5px 0 7px 15px;
+}
+
+#sidebar_claims table.claims-tbl tr td.claims, #sidebar_claims table.claims-tbl tr td.claims-buyname, #sidebar_claims table.claims-tbl tr td.claims-datefil, #sidebar_claims table.claims-tbl tr td.claims-amt { text-align:left; width:24%; border-bottom: 1px solid #eaeaea; background:#fff; }
+
+#sidebar_claims table.claims-tbl tr td.claims a {text-decoration:underline;}
+
+
+
+/*******************Completed Jobs Container & Claims Style ends here *************************/
+/************Manual Review Table Style here*********************/
+#manual_review .tab-content.current, #uw_myquote-tabs .tab-content.current, #uw_mybuyers-tabs .tab-content.current, #uw_mypolicies-tabs .tab-content.current { margin-right:0px;}
+.mn-rw-q_cntr, .myquote_cntr, .mybuyers_cntr, .mypolicies_cntr { float:left; overflow:visible; width:100%; margin-bottom: 15px; }
+.mn-rw-q_cntr .tabscontainer, .myquote_cntr .tabscontainer, .mybuyers_cntr .tabscontainer, .mypolicies_cntr .tabscontainer { 
+	width: 100%;
+	margin-left:0;
+ }
+ #alertArchConfirm{margin:15px;}
+ .textAlignLeft{text-align:left !important;}
+ table.default td a {text-decoration:underline;cursor:pointer;}
+ .iconFlagImg{background: url('../images/icon_Flag.png') no-repeat right;width:16px;height:16px;display:inline-block;margin-left:10px;cursor:pointer;}
+ .textellipse{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+ .alertNotification{
+	background: url("../images/icon_Alert.png") no-repeat scroll 2px center #fff5d0;
+    border: 2px solid #fdebb6;
+    border-radius: 4px;
+    float: left;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 13px;
+    height: auto;
+    line-height: 14px;
+    padding: 5px 20px 5px 30px;
+    position: relative;
+	margin:0px 0px 10px 10px;;
+    width: 275px;}
+	.hghLghtRed{color:#ff0000 !important;}
+.uwAuthMatrix{color:#37afe6;}
+.hypeLink, a.hypeLink, .hypeLink a{color:#37afe6 !important;cursor:pointer;}
+
+/*UW Authority Approval*/
+.tzbyrLmtCmts, .policyPopupDuns{width:500px !important;left: 30% !important;
+    margin-top: 100px;}
+.policyPopupDuns{    left: 12% !important;
+    margin-top: 300px;
+    width: 937px !important;}
+.uwInput{width:80% !important;}
+.uwInput1{width:80% !important;}
+.uwreassignJobsPopup{width:500px !important;left: 33% !important;
+    margin-top: 300px;}
+.alignFix{margin:5px 0px 5px 10px;}
+.mrgnBtm10{margin-bottom:10px;}
+/* typeahead style for Authority Approval (Used existing styles another ID)*/
+#filterDropDown12 {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ded8d2;
+    display: none;
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    text-align: left;
+    width: 250px;
+    z-index: 9999;
+}
+#filterDropDown12 {
+    text-align: left;
+}
+
+.filterDropDownUl12 { margin: 0;padding:0;}
+
+#filterDropDown12 ul li {
+    cursor: pointer;
+    list-style: outside none none;
+    padding: 4px 0 4px 3px;
+	color:#555;
+	font-size:12px;
+}
+
+#filterDropDown12 ul li:hover {
+cursor:pointer;
+background-color:#ddf4fc;	
+}
+/* end of typeahead */
+
+.width70{width:70% !important;}
+.mrgnTop10Imp{margin-top:10px !important;}
+#policyPopupMyApp {
+    padding-bottom: 15px;
+    width: 1020px;
+}
+#policyPopupDunsMyApp{
+padding-bottom: 15px;
+    width: 930px;}
+.uwInput0, .uwInput1, .uwInput2, .uwInput3, .uwInput4, .uwInput5{width:80% !important;} 
+.fltLft100{float:left;width:100%;}

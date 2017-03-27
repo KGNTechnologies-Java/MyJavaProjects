@@ -1,0 +1,115 @@
+/**
+* CSS themes for simplePagination.js
+* Author: Flavius Matis - http://flaviusmatis.github.com/
+* URL: https://github.com/flaviusmatis/simplePagination.js
+*/
+
+ul.simple-pagination {
+	list-style: none;
+}
+
+.simple-pagination {
+	display: block;
+	overflow: hidden;
+	padding: 0 5px 5px 0;
+	margin: 0;
+}
+
+.simple-pagination ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.simple-pagination li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+.light-theme {
+	padding: 0 5px 5px 0;
+	float:right;
+	margin-top: 20px;
+	
+}
+
+.light-theme a {
+	float: left;
+	color: #707070;
+	font-size:14px;
+	line-height:24px;
+	text-align: center;
+	border: 1px solid #c7c7c7;
+	min-width: 13px;
+	padding: 0 7px;
+	margin: 0 5px 0 0;
+	border-radius: 3px;
+	background: #efefef; /* Old browsers */
+	background: -moz-linear-gradient(top, # #f7f7f7 0%, #efefef 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,# #f7f7f7), color-stop(100%,#efefef)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, # #f7f7f7 0%,#efefef 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, # #f7f7f7 0%,#efefef 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, # #f7f7f7 0%,#efefef 100%); /* IE10+ */
+	background: linear-gradient(top, # #f7f7f7 0%,#efefef 100%); /* W3C */
+}
+
+.light-theme span.prev {
+	opacity:0.1;
+	-moz-opacity:0.1;
+	-khtml-opacity: 0.1;
+	filter: alpha(opacity=10);
+}
+
+
+.light-theme span.next {
+
+	opacity:0.1;
+	-moz-opacity:0.1;
+	-khtml-opacity: 0.1;
+	filter: alpha(opacity=10);
+}
+.light-theme span {
+	float: left;
+	color: #707070;
+	font-size:14px;
+	line-height:24px;
+	text-align: center;
+	border: 1px solid #c7c7c7;
+	min-width: 13px;
+	padding: 0 7px;
+	margin: 0 5px 0 0;
+	border-radius: 3px;
+	background: #efefef; /* Old browsers */
+	background: -moz-linear-gradient(top, # #f7f7f7 0%, #efefef 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,# #f7f7f7), color-stop(100%,#efefef)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, # #f7f7f7 0%,#efefef 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, # #f7f7f7 0%,#efefef 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, # #f7f7f7 0%,#efefef 100%); /* IE10+ */
+	background: linear-gradient(top, # #f7f7f7 0%,#efefef 100%); /* W3C */
+}
+
+.light-theme a:hover {
+	text-decoration: none;
+	background: #00609c ;
+	color: #FFF;
+}
+
+.light-theme .current {
+	background: #00609c ;
+	color: #FFF;
+	border-color: #00609c;
+	cursor: default;
+}
+
+.light-theme .ellipse {
+	background: none;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	cursor: default;
+}
+
+
+

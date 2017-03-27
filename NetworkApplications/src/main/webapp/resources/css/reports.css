@@ -1,0 +1,106 @@
+
+.rptsHeader {  float: left;
+    height: auto;
+    width: 100%;
+	display: inline-block; }
+
+.rptbuttonHeader {     color: #54565b;
+    float: left;
+    height: auto;
+    padding: 19px 0 0;
+     width: 43%;}
+
+.rptbuttonHeader span { display: inline-block;
+   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	margin-right: 4%;
+    font-weight: normal;
+	float:left;}
+.rptbuttonHeader div {display: inline-block;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	margin-right: 4%;
+    font-weight: normal;
+	float:left;  width: 60%; }
+
+.rptContentDt { float:left; width:100%;}
+
+.rptContentRw{ color: #54565b;
+    height: auto;
+    padding: 19px 0 0;
+     width: 100%;
+	float:left;
+
+}
+.rptContentRw label{display: inline-block;
+    float: left;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: normal;
+    margin-right: 2%;
+	width:13%;
+}
+.rptCmnDrpDwn{width:25%;display:inline-block;margin-right:2%;float:left;}
+input.rptCmnInput{    
+	border: 1px solid #e3e4e6;
+    border-radius: 3px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 10pt;
+    font-weight: 400;
+    height: 25px;
+    margin-left: 0;
+    text-indent: 2px;
+    width: 24.6%;
+	float:left;
+	 margin-right: 2%;	
+}
+input#cal01 ,input#cal02,input#cal03{
+    background-position: right  center;
+    margin-left: -1px;
+    margin-right: 0;
+    padding-left: 11px;
+  
+}
+input.rptCal {
+    border: 1px solid #e3e4e6;
+    border-radius: 3px;
+    color: #555;
+    float: left;
+    font-family: aig_futuraregular;
+    font-size: 10pt;
+    height: 25px;
+    width: 90.5% !important;
+	 margin-right: 2% !important;
+}
+.reportDashBoard{
+    float: left;
+    margin: 0% 0% 2% 1%;
+    width: 98%;	
+	min-height:628px;
+	min-height:645px\9;
+}
+.radioColSec {
+    float: left;
+    height: auto;
+    width: 100%;
+	padding: 19px 0 0;
+}
+.radioColSec label{
+    display: inline-block;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: normal;
+    margin-right: 2%;
+    width: 13%
+	color: #54565b;
+    font-size: 12pt;
+    margin-bottom: 10px;
+}
+.rptDefault { }
+
+.dateRng { float:left;padding-right:2%;}
+.ReportSecHead{padding-top:20px;}
+.ExpCutOffTxt{float:left;width:100%;}
+table.rprt_result_tab{margin-bottom:20px;border-bottom:2px solid #e1e2e6;border-right:none;border-left:none;border-top:none;}
+table.rprt_result_tab tr:nth-child(2n+1){background:none repeat scroll 0 0 #f6f8fa}
+table.rprt_result_tab tr td{border:none !important ;padding:8px 4px 8px 4px;}
+table.rprt_result_tab thead tr{ background:#ddf4fc !important;}
+table.rprt_result_tab thead tr th{border:none !important ;}
+.topultiregfont{font-family:aig_futuraregular !important;}
+.calDiv{float:left;width:auto;margin-right: 10px;}
