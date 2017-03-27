@@ -25,9 +25,10 @@ import com.sap.network.entity.SpotDeal;
 import com.sap.network.serviceintf.NetworkServiceIntf;
 
 /**
- * @author C5251932
+ * @author C5251932 
  *
  */
+/* Rest controller*/
 
 @RestController
 public class NetworkRestController {
