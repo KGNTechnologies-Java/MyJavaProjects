@@ -16,7 +16,6 @@ public class EmployeeController {
 	@RequestMapping("/")
 	public String hellowMessage(){
 		return "Welcome to employee controller class";
-		return "Welcome to employee controller class ";
-	}
+		}
 
 }
