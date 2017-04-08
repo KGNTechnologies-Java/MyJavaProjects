@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class EmployeeController {
 	@RequestMapping("/")
 	public String hellowMessage(){
-		return "Welcome to employee controller";
+		return "Welcome to employee controller class ";
 	}
 
 }
