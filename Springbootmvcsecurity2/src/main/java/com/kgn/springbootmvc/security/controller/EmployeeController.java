@@ -16,7 +16,7 @@ public class EmployeeController {
 	
 	@RequestMapping("/hellow")
 	public String message(){
-		return "welcome to springbootmvc2application with embedded tomcat and SpringBootServletInitializer";
+		return "welcome to springbootmvc2application with embedded tomcat server and SpringBootServletInitializer";
 	}
 
 }
